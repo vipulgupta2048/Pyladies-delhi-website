@@ -1,0 +1,30 @@
+{
+  "name": "pyladies-delhi-website",
+  "version": "1.0.0",
+  "description": "Website for PyLadies Delhi chapter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/utkarsh2102/Pyladies-delhi-website.git"
+  },
+  "keywords": [
+    "pyladies",
+    "pyladies-delhi"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/utkarsh2102/Pyladies-delhi-website/issues"
+  },
+  "homepage": "https://github.com/utkarsh2102/Pyladies-delhi-website#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0"
+  }
+}
