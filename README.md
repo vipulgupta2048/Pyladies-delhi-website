@@ -35,7 +35,8 @@ The compiled CSS and JS files are stored in build folder.
 
 ## Contributors
 - Vipul Gupta
-- Animesh Verma 
+- Animesh Verma
+- Utkarsh Gutpa 
 - [Add your name here]
 
 ## MIT License 
