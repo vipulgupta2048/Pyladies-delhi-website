@@ -1,4 +1,4 @@
-# Pyladies Delhi Website
+# PyLadies Delhi Website
 The code and development of the PyLadies Delhi Chapter website is housed here. 
 
 ## Contributing Guidelines 
