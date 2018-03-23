@@ -14,6 +14,11 @@ $ sudo apt-get update
 $ sudo apt-get install nodejs
 $ sudo apt-get install npm
 ```
+
+##WINDOWS
+
+Installer- https://nodejs.org/en/
+
 After installation, you can verify Node & NPM versions by folllowing commands:
 ```
 $ node -v
@@ -37,7 +42,7 @@ The compiled CSS and JS files are stored in build folder.
 - Vipul Gupta
 - Animesh Verma
 - Utkarsh Gutpa 
-- [Add your name here]
+- Akshat Pande
 
 ## MIT License 
 This code is under [MIT license](https://github.com/vipulgupta2048/Pyladies-delhi-website/blob/master/LICENSE). 
