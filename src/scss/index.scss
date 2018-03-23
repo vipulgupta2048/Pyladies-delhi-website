@@ -1,0 +1,67 @@
+$openercolour: white ;
+.leftbanner{
+  position:fixed;
+  height:100%;
+  width:206px;
+  left:0px;
+  background-color: $openercolour;
+  z-index: 5;
+  transition: width 1s;
+}
+.rightbanner{
+  position:fixed;
+  height:100%;
+  width:206px;
+  right:0px;
+  background-color: $openercolour;
+  z-index:5;
+  transition: width 1s;
+}
+#activities{
+
+  background-color: rgba(248,137,48,0.2)
+}
+.label{
+  fill:rgba(248,24,24,0.5) ;
+}
+.labelboxr{
+position: relative;
+left:30px;
+}
+
+
+@media all and (min-width:200px) and (max-width:400px){
+
+  .labeltext{
+    font-size: 35px;
+
+  }
+}
+@media all and (min-width:401px) and (max-width:800px){
+
+    .labeltext{
+      font-size: 40px;
+    }
+  }
+    @media all and (min-width:800px) and (max-width:2000px){
+
+      .labeltext{
+        font-size:45px;
+      }
+}
+.activitiespara{
+  font-family:"Georgia";
+}
+
+#organisers{
+  background-color: rgba(164,209,227,0.3)
+}
+.org{
+  height:100%;
+  position: relative;
+  bottom: 20px;
+}
+.labelboxl{
+  position: relative;
+  right:30px;
+}
