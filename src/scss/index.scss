@@ -2,7 +2,7 @@ $openercolour: white ;
 .leftbanner{
   position:fixed;
   height:100%;
-  width:206px;
+  width:50%;
   left:0px;
   background-color: $openercolour;
   z-index: 5;
@@ -11,7 +11,7 @@ $openercolour: white ;
 .rightbanner{
   position:fixed;
   height:100%;
-  width:206px;
+  width:50%;
   right:0px;
   background-color: $openercolour;
   z-index:5;
