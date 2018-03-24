@@ -1,1 +1,125 @@
-.leftbanner,.rightbanner{position:fixed;width:50%;background-color:#fff;z-index:5;transition:width 1s;height:100%}#activities,#organisers{overflow-x:hidden;overflow-y:auto}.leftbanner,.org{height:100%}.leftbanner{left:0}.rightbanner{right:0}.label{fill:rgba(248,24,24,.5)}.labelboxr{position:relative;left:30px}@media all and (min-width:200px) and (max-width:400px){.labeltext{font-size:35px}.activitiespara{font-family:'Aref Ruqaa';font-size:20px;font-weight:15px}}@media all and (min-width:401px) and (max-width:800px){.labeltext{font-size:40px}.activitiespara{font-family:'Aref Ruqaa';font-size:16px;font-weight:25px}}@media all and (min-width:800px) and (max-width:2000px){.labeltext{font-size:45px}.activitiespara{font-family:'Aref Ruqaa';font-size:20px;font-weight:30px}}.labelboxl{position:relative;right:30px}
+html, body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100;
+}
+
+.leftbanner,
+.rightbanner {
+    position: fixed;
+    width: 50%;
+    background-color: #fff;
+    z-index: 5;
+    transition: width 1s;
+    height: 100%
+}
+
+#activities,
+#organisers {
+    overflow-x: hidden;
+    overflow-y: auto
+}
+
+.leftbanner,
+.org {
+    height: 100%
+}
+
+.leftbanner {
+    left: 0
+}
+
+.rightbanner {
+    right: 0
+}
+
+.label {
+    fill: rgba(248, 24, 24, .5)
+}
+
+.labelboxr {
+    position: relative;
+    left: 30px
+}
+
+@media all and (min-width:200px) and (max-width:400px) {
+    .labeltext {
+        font-size: 35px
+    }
+    .activitiespara {
+        font-family: 'Aref Ruqaa';
+        font-size: 20px;
+        font-weight: 15px
+    }
+}
+
+@media all and (min-width:401px) and (max-width:800px) {
+    .labeltext {
+        font-size: 40px
+    }
+    .activitiespara {
+        font-family: 'Aref Ruqaa';
+        font-size: 16px;
+        font-weight: 25px
+    }
+}
+
+@media all and (min-width:800px) and (max-width:2000px) {
+    .labeltext {
+        font-size: 45px
+    }
+    .activitiespara {
+        font-family: 'Aref Ruqaa';
+        font-size: 20px;
+        font-weight: 30px
+    }
+}
+
+.labelboxl {
+    position: relative;
+    right: 30px
+}
+
+.full-screen{
+    min-height: 100vh;
+    min-width: 100%;
+}
+.logo-med{
+    width: 100px;
+    height: auto;
+}
+.logo-med-lg{
+    width: 130px;
+    height: auto;
+}
+#primaryNav{
+    transition: 0.3s all;
+}
+#mainNav{
+    margin-top: 5px;
+    border: 0;
+}
+#primaryNav .logo-container,
+#primaryNav .toggler-container,
+#mainNav{
+    width: 100%;
+}
+#primaryNav .logo-container img{
+    transition: 0.3s all;
+}
+/** Navbar Fixed Layout Styles **/
+#primaryNav.navbar-fixed-layout{
+    background-color: var(--light);
+}
+#primaryNav.navbar-fixed-layout #mainNav{
+    border-top: 1px solid rgba(0,0,0,0.1);
+}
+#primaryNav.navbar-fixed-layout .logo-container img{
+    width: 60px;
+    height: auto;
+}
+
+#home{
+    padding-top: 200px; /** Fix for Floating Menu **/
+}
