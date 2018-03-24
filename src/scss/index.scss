@@ -1,3 +1,4 @@
+
 $openercolour: white ;
 .leftbanner{
   position:fixed;
@@ -18,7 +19,8 @@ $openercolour: white ;
   transition: width 1s;
 }
 #activities{
-
+  overflow-x:hidden;
+  overflow-y: auto;
   background-color: rgba(248,137,48,0.2)
 }
 .label{
@@ -54,12 +56,12 @@ left:30px;
 }
 
 #organisers{
+  overflow-x:hidden;
+  overflow-y: auto;
   background-color: rgba(164,209,227,0.3)
 }
 .org{
   height:100%;
-  position: relative;
-  bottom: 20px;
 }
 .labelboxl{
   position: relative;
