@@ -11,12 +11,77 @@
 	<meta name="description" content="Official website of PyLadies Delhi Chapter">
 	<meta name="keywords" content="PyLadies, PyLadies Delhi, PyLadies Delhi Chapter">
 	<!-- Main CSS file...do not modify. -->
-	<link rel="stylesheet" type="text/css" href="build/main.css" />
+	<!-- Compiled and minified CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+	<link rel="stylesheet" type="text/css" href="src/scss/index.scss" /> 
 </head>
 <body>
 	<!-- Content goes here -->
 
+<!--AboutUs-->
+<section id="aboutUs">
+
+<div class="row">
+  <div class="offset-s4 col s8">
+		<svg class="labelBox1" viewBox="0 0 502 72">
+			<defs>
+				<filter id="f3" x="0" y="0" width="200%" height="200%">
+					<feOffset result="offOut" in="SourceAlpha" dx="10" dy="10"/>
+						<feGaussianBlur result="blurOut" in="offOut" stdDeviation="3"/>
+						<feBlend in="SourceGraphic" in2="blurOut" mode="normal">
+				</filter>
+			</defs>
+
+			<polygon class="label" points="0,0 500,0 500,60 50,60" filter="url(#f3)" fill="rgba(248,24,24,0.5)"/>
+			<text class="labelText" x="160" y="45" fill="white">ABOUT US</text>
+		</svg>
+</div>
+</div>
+
+<div class="container">
+	<div class="row">
+		<div class="offset-s4">
+			<div class="card-panel">
+		<p class="flow-text">Pyladies Delhi, started in October 2014,is the Delhi chapter of Pyladies, an international mentorship group focused on helping more women become active participants and leaders in the python open-source community. We aim to provide a friendly support network for women and a bridge to the larger Python world. Anyone with an interest in Python is encouraged to participate!</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!--Sponsors-->
+<section id="sponsors">
+<div class="row">
+  <div class="col s8">
+		<svg class="labelBox2" viewBox="0 0 502 72">
+			<defs>
+				<filter id="f2" x="0" y="0" width="200%" height="200%">
+					<feOffset result="offOut" in="SourceAlpha" dx="-3" dy="10"/>
+					<feGaussianBlur result="blurOut" in="offOut" stdDeviation="3"/>
+					<feBlend in="SourceGraphic" in2="blurOut" mode="normal"/>
+				</filter>
+			</defs>
+
+			<polygon class="label" points="0,0 500,0 450,60 0,60" filter="url(#f2)" fill="rgba(248,24,24,0.5)"/>
+			<text class="labelText" x="160" y="45" fill="white">SPONSORS</text>
+		</svg>
+</div>
+</div>
+
+		<div class="container">
+			<div class="row">
+				<div class="offset-s4">
+					<div class="card-panel">
+		<p class="flow-text">Cryptogirls is our main sponsor for venue and event organization. To sponsor us or just show your support, send us an email!</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+
 	<!-- Main JS file....do not modify -->
-	<script type="text/javascript" src="build/main.js"></script>
+	<!-- Compiled and minified JavaScript -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+	<script type="text/javascript" src="src/js/script.js"></script>
 </body>
 </html>
