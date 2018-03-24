@@ -21,7 +21,7 @@ $openercolour: white ;
 #activities{
   overflow-x:hidden;
   overflow-y: auto;
-  background-color: rgba(248,137,48,0.2)
+
 }
 .label{
   fill:rgba(248,24,24,0.5) ;
@@ -36,13 +36,19 @@ left:30px;
 
   .labeltext{
     font-size: 35px;
-
-  }
+}
+.activitiespara{
+  font-family:'Aref Ruqaa';font-size: 20px;
+  font-weight: 15px;
+}
 }
 @media all and (min-width:401px) and (max-width:800px){
 
     .labeltext{
       font-size: 40px;
+    }
+    .activitiespara{
+      font-family:'Aref Ruqaa';font-size: 16px;font-weight:25px;
     }
   }
     @media all and (min-width:800px) and (max-width:2000px){
@@ -50,15 +56,15 @@ left:30px;
       .labeltext{
         font-size:45px;
       }
+      .activitiespara{
+        font-family:'Aref Ruqaa';font-size: 20px;font-weight: 30px;
+      }
 }
-.activitiespara{
-  font-family:"Georgia";
-}
+
 
 #organisers{
   overflow-x:hidden;
   overflow-y: auto;
-  background-color: rgba(164,209,227,0.3)
 }
 .org{
   height:100%;
