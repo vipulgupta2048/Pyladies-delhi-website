@@ -11,6 +11,8 @@ $(document).ready(function(e){
         }
     });
 });
+
+
 /*
 setTimeout(function () {
     document.getElementsByClassName("leftbanner")[0].style.width = "0px";
