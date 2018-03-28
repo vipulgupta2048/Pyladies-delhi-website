@@ -81,9 +81,12 @@ html, body{
     right: 30px
 }
 
-.full-screen{
+#home .full-screen{
     min-height: 100vh;
     min-width: 100%;
+}
+.text-secondary{
+  padding-top: 20px;
 }
 .logo-med{
     width: 100px;
@@ -121,5 +124,16 @@ html, body{
 }
 
 #home{
-    padding-top: 200px; /** Fix for Floating Menu **/
+    padding-top: 50px; /** Fix for Floating Menu **/
+}
+#activities{
+  padding-top:50px;
+}
+#organisations{
+  padding-top: 50px;
+}
+.section-heading{
+  font-family: 'Lato', sans-serif;
+  color:white;
+  background-color: rgba(255,68,68,0.9);
 }
