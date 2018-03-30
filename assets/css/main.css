@@ -148,6 +148,13 @@ html, body{
   background-color: rgba(255,68,68,0.9);
 }
 
+#img1,#img2 {
+    opacity: 0.5;
+}
+
+#img1:hover,#img2:hover {
+    opacity: 1.0;
+}
 #sponsorDescription{
     font-family: 'PT Sans Narrow', sans-serif;
   color:black !important;

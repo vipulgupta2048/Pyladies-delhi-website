@@ -20,6 +20,7 @@ For more details - [Refer to this paper.](https://paper.dropbox.com/doc/PyLadies
 - Utkarsh Gupta
 - Ayush Agarwal 
 - Akshat Pande
+- Joy Bhallas
 
 ## MIT License 
 This code is under [MIT license](https://github.com/vipulgupta2048/Pyladies-delhi-website/blob/master/LICENSE).
