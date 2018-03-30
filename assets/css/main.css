@@ -205,6 +205,19 @@ html, body{
 
 }
 
+#img1,#img2,#img3 {
+    opacity: 0.5;
+}
+
+#img1:hover,#img2:hover,#img3:hover {
+    opacity: 1.0;
+}
+
+
+#organisation-content {
+    font-family: 'PT Sans Narrow', sens-serif;
+}
+
 .hameid-loader-overlay {
     width: 100%;
     height: 100%;
