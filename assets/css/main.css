@@ -139,9 +139,24 @@ html, body{
 }
 
 #img1,#img2 {
-    opacity: 0.5;)
+    opacity: 0.5;
 }
 
 #img1:hover,#img2:hover {
     opacity: 1.0;
+}
+
+#homeSocialLinks{
+  font-size:48px;
+  padding:7px;
+  padding-left:15px;
+}
+
+#icon{
+  color:#aaaaaa;
+  padding-left: 15px;
+}
+
+#icon:hover {
+  color:rgba(0,0,0,0.6);
 }
