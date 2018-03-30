@@ -48,9 +48,12 @@ html, body{
         font-size: 35px
     }
     .activitiespara {
-        font-family: 'Aref Ruqaa';
         font-size: 20px;
         font-weight: 15px
+
+    }
+    .menubtn{
+      padding-top: 10px;
     }
 }
 
@@ -59,9 +62,11 @@ html, body{
         font-size: 40px
     }
     .activitiespara {
-        font-family: 'Aref Ruqaa';
         font-size: 16px;
         font-weight: 25px
+    }
+    .menubtn{
+      padding-top: 10px;
     }
 }
 
@@ -70,7 +75,6 @@ html, body{
         font-size: 45px
     }
     .activitiespara {
-        font-family: 'Aref Ruqaa';
         font-size: 20px;
         font-weight: 30px
     }
@@ -89,13 +93,14 @@ html, body{
   padding-top: 20px;
 }
 .logo-med{
-    width: 100px;
+    width: 200px;
     height: auto;
 }
 .logo-med-lg{
     width: 130px;
     height: auto;
 }
+
 #primaryNav{
     transition: 0.3s all;
 }
@@ -126,6 +131,11 @@ html, body{
 #home{
     padding-top: 50px; /** Fix for Floating Menu **/
 }
+#homeDescription{
+    font-family: 'PT Sans Narrow', sans-serif;
+  color:black !important;
+  font-size: 1.2em;
+}
 #activities{
   padding-top:50px;
 }
@@ -145,6 +155,13 @@ html, body{
 #img1:hover,#img2:hover {
     opacity: 1.0;
 }
+#sponsorDescription{
+    font-family: 'PT Sans Narrow', sans-serif;
+  color:black !important;
+}
+.activity-description{
+    font-family: 'PT Sans Narrow', sans-serif;
+}
 
 #homeSocialLinks{
   font-size:48px;
@@ -159,4 +176,5 @@ html, body{
 
 #icon:hover {
   color:rgba(0,0,0,0.6);
+
 }
