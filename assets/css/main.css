@@ -40,7 +40,7 @@ html, body{
 
 .labelboxr {
     position: relative;
-    left: 30px
+    left: 30px;
 }
 
 @media all and (min-width:200px) and (max-width:400px) {
@@ -170,6 +170,7 @@ html, body{
 
 
 #homeDescription{
+  padding-top: 100px !important;
     font-family: 'PT Sans Narrow', sans-serif;
   color:black !important;
   font-size: 1.2em;
@@ -185,10 +186,13 @@ html, body{
     font-family: 'PT Sans Narrow', sans-serif;
   color:black !important;
 }
+.sponsor{padding-top: 100px !important;}
 .activity-description{
     font-family: 'PT Sans Narrow', sans-serif;
 }
-
+.activity{
+  padding-top: 50px !important;
+}
 #homeSocialLinks{
   font-size:48px;
   padding:7px;
@@ -215,6 +219,7 @@ html, body{
 
 
 #organisation-content {
+  padding-top: 50px;
     font-family: 'PT Sans Narrow', sens-serif;
 }
 
