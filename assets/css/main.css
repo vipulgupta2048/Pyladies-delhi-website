@@ -171,3 +171,11 @@ html, body{
   color:rgba(0,0,0,0.6);
 
 }
+
+#img1,#img2 {
+    opacity: 0.5;
+}
+
+#img1:hover,#img2:hover {
+    opacity: 1.0;
+}
