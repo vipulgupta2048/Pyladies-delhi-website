@@ -134,6 +134,7 @@ html, body{
 #homeDescription{
     font-family: 'PT Sans Narrow', sans-serif;
   color:black !important;
+  font-size: 1.2em;
 }
 #activities{
   padding-top:50px;
