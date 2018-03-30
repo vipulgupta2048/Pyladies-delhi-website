@@ -1,6 +1,7 @@
 jQuery(window).load(function(){
-    jQuery(".hameid-loader-overlay").fadeOut(500);
+    jQuery(".hameid-loader-overlay").delay(400).fadeOut('fast'); 
 });
+
 $(window).on("load", function(){
     $(".leftbanner, .rightbanner").css("width", "0px");
 });
