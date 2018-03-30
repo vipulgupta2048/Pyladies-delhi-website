@@ -172,10 +172,14 @@ html, body{
 
 }
 
-#img1,#img2 {
+#img1,#img2,#img3 {
     opacity: 0.5;
 }
 
-#img1:hover,#img2:hover {
+#img1:hover,#img2:hover,#img3:hover {
     opacity: 1.0;
+}
+
+#organisation-content {
+    font-family: 'PT Sans Narrow', sens-serif;
 }
