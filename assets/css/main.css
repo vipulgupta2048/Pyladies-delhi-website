@@ -14,7 +14,7 @@ html, body{
     transition: width 1s;
     height: 100%
 }
-
+.logo-med{cursor:pointer;}
 #activities,
 #organisers {
     overflow-x: hidden;
