@@ -16,6 +16,33 @@ html, body{
 }
 
 #activities,
+
+#upcoming-meetup
+.section--next_event {
+  margin-top: 3.5em;
+  text-align: center;
+  font-family: 'PT Sans Narrow', sans-serif;
+  transition: all 0.5s ease;
+  /*opacity: 0;*/
+}
+.section--next_event .btn-cta {
+  display: inline-block;
+  background-color: #11fac2;
+  font-family: 'PT Sans Narrow', sans-serif;
+  padding: 10px;
+}
+.section--next_event a {
+  display: inline-block;
+  padding: 10px;
+  background-color: #fdf7d6;
+  border-bottom: none;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+.section--next_event a:hover {
+  border-bottom: none;
+  background-color: #e4dfc0;
+  color: #111;
+}
 #organisers {
     overflow-x: hidden;
     overflow-y: auto
@@ -180,11 +207,10 @@ html, body{
     opacity: 1.0;
 }
 
-<<<<<<< HEAD
 #organisation-content {
     font-family: 'PT Sans Narrow', sens-serif;
 }
-=======
+
 .hameid-loader-overlay {
     width: 100%;
     height: 100%;
@@ -192,5 +218,3 @@ html, body{
     z-index: 99999;
     position: fixed;
 }
-
->>>>>>> 19d9042618e44fdd97ae11159f1768f7eab3abe3
