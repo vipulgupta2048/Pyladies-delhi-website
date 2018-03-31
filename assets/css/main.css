@@ -189,12 +189,12 @@ html, body{
   padding-left:15px;
 }
 
-#icon{
+.icon{
   color:#aaaaaa;
   padding-left: 15px;
 }
 
-#icon:hover {
+.icon:hover {
   color:rgba(0,0,0,0.6);
 
 }
