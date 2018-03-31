@@ -1,7 +1,17 @@
 jQuery(window).load(function(){
     jQuery(".hameid-loader-overlay").delay(400).fadeOut('fast');
 });
-
+$(window).on("load resize", function(e){
+    if($(window).width()<=768){
+        $("#mainNav .nav-item").each(function(e){
+            $(this).attr("data-toggle","collapse");
+        });
+    }else{
+        $("#mainNav .nav-item").each(function(e){
+            $(this).removeAttr("data-toggle");
+        });
+    }
+});
 $(window).on("load", function(){
     $(".leftbanner, .rightbanner").css("width", "0px");
     $(window).scrollTop(0);
@@ -32,16 +42,10 @@ $(document).ready(function() {
   // Set the percentage off
   loading();
 });
-
-
-
-
-
-
-
 /*
 setTimeout(function () {
     document.getElementsByClassName("leftbanner")[0].style.width = "0px";
     document.getElementsByClassName("rightbanner")[0].style.width = "0px"
 }, 1500);
 */
+
