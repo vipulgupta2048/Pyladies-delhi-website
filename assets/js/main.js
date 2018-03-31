@@ -31,15 +31,3 @@ $(document).ready(function() {
   // Set the percentage off
   loading();
 });
-
-
-
-
-
-
-/*
-setTimeout(function () {
-    document.getElementsByClassName("leftbanner")[0].style.width = "0px";
-    document.getElementsByClassName("rightbanner")[0].style.width = "0px"
-}, 1500);
-*/
