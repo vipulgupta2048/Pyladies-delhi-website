@@ -4,6 +4,7 @@ jQuery(window).load(function(){
 
 $(window).on("load", function(){
     $(".leftbanner, .rightbanner").css("width", "0px");
+    $(window).scrollTop(0);
 });
 $(document).ready(function(e){
     var primaryNav = $("#primaryNav");
@@ -31,6 +32,7 @@ $(document).ready(function() {
   // Set the percentage off
   loading();
 });
+
 
 
 

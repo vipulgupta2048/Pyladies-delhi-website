@@ -27,11 +27,11 @@ html, body{
 }
 
 .leftbanner {
-    left: 0
+    left: 0px;
 }
 
 .rightbanner {
-    right: 0
+    right: 0px;
 }
 
 .label {
