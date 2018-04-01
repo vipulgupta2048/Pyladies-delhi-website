@@ -31,19 +31,20 @@ $(document).ready(function (e) {
             primaryNav.removeClass("navbar-fixed-layout");
         }
     }
-    checkNav();
-    checkResponsiveMenu();
-});
-$(window).on("load", function (e) {
-    setTimeout(function () {
+    function init(){
         setTimeout(function () {
-            $("#preloader .content").fadeOut(500);
             setTimeout(function () {
-                $("#preloader .bg-left, #preloader .bg-right").css("width", "0");
+                $("#preloader .content").fadeOut(500);
                 setTimeout(function () {
-                    $("#preloader").hide();
-                }, 800);
+                    $("#preloader .bg-left, #preloader .bg-right").css("width", "0");
+                    setTimeout(function () {
+                        $("#preloader").hide();
+                    }, 800);
+                }, 1000);
             }, 1000);
         }, 1000);
-    }, 1000);
+        checkNav();
+        checkResponsiveMenu();
+    }
+    init();
 });
