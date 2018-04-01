@@ -14,6 +14,7 @@ $(window).on("load resize", function(e){
 });
 $(window).on("load", function(){
     $(".leftbanner, .rightbanner").css("width", "0px");
+    $(window).scrollTop(0);
 });
 $(document).ready(function(e){
     var primaryNav = $("#primaryNav");
@@ -41,3 +42,10 @@ $(document).ready(function() {
   // Set the percentage off
   loading();
 });
+/*
+setTimeout(function () {
+    document.getElementsByClassName("leftbanner")[0].style.width = "0px";
+    document.getElementsByClassName("rightbanner")[0].style.width = "0px"
+}, 1500);
+*/
+

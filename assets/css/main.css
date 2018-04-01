@@ -14,7 +14,7 @@ html, body{
     transition: width 1s;
     height: 100%
 }
-
+.logo-med{cursor:pointer;}
 #activities,
 
 #upcoming-meetup
@@ -54,11 +54,11 @@ html, body{
 }
 
 .leftbanner {
-    left: 0
+    left: 0px;
 }
 
 .rightbanner {
-    right: 0
+    right: 0px;
 }
 
 .label {
@@ -67,10 +67,12 @@ html, body{
 
 .labelboxr {
     position: relative;
-    left: 30px
+    left: 30px;
 }
 
 @media all and (min-width:200px) and (max-width:400px) {
+
+
     .labeltext {
         font-size: 35px
     }
@@ -82,9 +84,22 @@ html, body{
     .menubtn{
       padding-top: 10px;
     }
+    #activities {
+      padding-top:150px;
+    }
+    #home{
+      padding-top:150px;
+    }
+    #sponsors{
+      padding-top:150px;
+    }
+    #organisers{
+      padding-top: 150px;
+    }
 }
 
 @media all and (min-width:401px) and (max-width:800px) {
+
     .labeltext {
         font-size: 40px
     }
@@ -95,15 +110,40 @@ html, body{
     .menubtn{
       padding-top: 10px;
     }
+    #activities {
+      padding-top:200px;
+    }
+    #home{
+      padding-top:200px;
+    }
+    #sponsors{
+      padding-top:200px;
+    }
+    #organisers{
+      padding-top: 200px;
+    }
 }
 
 @media all and (min-width:800px) and (max-width:2000px) {
+
     .labeltext {
         font-size: 45px
     }
     .activitiespara {
         font-size: 20px;
         font-weight: 30px
+    }
+    #activities {
+      padding-top:150px;
+    }
+    #home{
+      padding-top:150px;
+    }
+    #sponsors{
+      padding-top:150px;
+    }
+    #organisers{
+      padding-top: 150px;
     }
 }
 
@@ -155,20 +195,14 @@ html, body{
     height: auto;
 }
 
-#home{
-    padding-top: 50px; /** Fix for Floating Menu **/
-}
+
 #homeDescription{
+  padding-top: 100px !important;
     font-family: 'PT Sans Narrow', sans-serif;
   color:black !important;
   font-size: 1.2em;
 }
-#activities{
-  padding-top:50px;
-}
-#organisations{
-  padding-top: 50px;
-}
+
 .section-heading{
   font-family: 'Lato', sans-serif;
   color:white;
@@ -179,10 +213,13 @@ html, body{
     font-family: 'PT Sans Narrow', sans-serif;
   color:black !important;
 }
+.sponsor{padding-top: 100px !important;}
 .activity-description{
     font-family: 'PT Sans Narrow', sans-serif;
 }
-
+.activity{
+  padding-top: 50px !important;
+}
 #homeSocialLinks{
   font-size:48px;
   padding:7px;
@@ -208,6 +245,7 @@ html, body{
 }
 
 #organisation-content {
+  padding-top: 50px;
     font-family: 'PT Sans Narrow', sens-serif;
 }
 
