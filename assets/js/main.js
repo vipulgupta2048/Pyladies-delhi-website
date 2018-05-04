@@ -8,7 +8,7 @@ $(document).ready(function (e) {
         var target = $(this).attr("href");
         requestAnimationFrame(function () {
             $('html, body').stop().animate({
-                scrollTop: $(target).offset().top - 90
+                scrollTop: $(target).offset().top - 50
             }, 1500, 'easeInOutExpo');
         });
     });
@@ -25,7 +25,7 @@ $(document).ready(function (e) {
     }
 
     function checkNav() {
-        if ($(window).scrollTop() > $("#home").height()) {
+        if ($(window).scrollTop() + 90 > $("#home").height()) {
             primaryNav.addClass("navbar-fixed-layout");
         } else {
             primaryNav.removeClass("navbar-fixed-layout");
