@@ -23,5 +23,10 @@ For more details - [Refer to this paper.](https://paper.dropbox.com/doc/PyLadies
 - Joy Bhalla
 - Omkar
 
+## Attributions
+
+- Mouse `mouse.svg` by Vladimir Rancic
+- Logo Transparent Version `logo-trans.png` by @sanskarv3
+
 ## MIT License
 This code is under [MIT license](https://github.com/vipulgupta2048/Pyladies-delhi-website/blob/master/LICENSE).
