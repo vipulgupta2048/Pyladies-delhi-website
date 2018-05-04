@@ -1,43 +1,50 @@
-jQuery(window).load(function(){
-    jQuery(".hameid-loader-overlay").delay(400).fadeOut('fast');
-});
-$(window).on("load resize", function(e){
-    if($(window).width()<=768){
-        $("#mainNav .nav-item").each(function(e){
-            $(this).attr("data-toggle","collapse");
-        });
-    }else{
-        $("#mainNav .nav-item").each(function(e){
-            $(this).removeAttr("data-toggle");
-        });
-    }
-});
-$(window).on("load", function(){
-    $(".leftbanner, .rightbanner").css("width", "0px");
-});
-$(document).ready(function(e){
+$(document).ready(function (e) {
     var primaryNav = $("#primaryNav");
-    $(window).on("scroll", function(e){
-        if($(this).scrollTop() != 0){
+    $(window).on("scroll", function (e) {
+        checkNav();
+    });
+    $(".smooth-scroll").click(function (e) {
+        e.preventDefault();
+        var target = $(this).attr("href");
+        requestAnimationFrame(function () {
+            $('html, body').stop().animate({
+                scrollTop: $(target).offset().top - 90
+            }, 1500, 'easeInOutExpo');
+        });
+    });
+    $(window).on("resize", function (e) {
+        checkResponsiveMenu();
+    });
+
+    function checkResponsiveMenu() {
+        if ($(window).width() <= 768) {
+            $("#mainNav").find("a.nav-link").attr("data-toggle", "collapse");
+        } else {
+            $("#mainNav").find("a.nav-link").removeAttr("data-toggle");
+        }
+    }
+
+    function checkNav() {
+        if ($(window).scrollTop() > $("#home").height()) {
             primaryNav.addClass("navbar-fixed-layout");
-        }else{
+        } else {
             primaryNav.removeClass("navbar-fixed-layout");
         }
-    });
-});
-$(document).ready(function() {
-  var counter = 0;
-
-  // Start the changing images
-  setInterval(function() {
-    if(counter == 9) {
-      counter = 0;
     }
-
-    changeImage(counter);
-    counter++;
-  }, 3000);
-
-  // Set the percentage off
-  loading();
+    function init(){
+        setTimeout(function () {
+            setTimeout(function () {
+                $("#preloader .content").fadeOut(500);
+                setTimeout(function () {
+                    $("#preloader .bg-left, #preloader .bg-right").css("width", "0");
+                    setTimeout(function () {
+                        $("#preloader").hide();
+                    }, 800);
+                }, 1000);
+            }, 1000);
+        }, 1000);
+        checkNav();
+        checkResponsiveMenu();
+    }
+    init();
 });
