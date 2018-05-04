@@ -38,7 +38,7 @@ body {
     height: auto;
 }
 
-.img-icon{
+.img-icon {
     width: 30px;
     height: auto;
 }
@@ -362,18 +362,19 @@ a.unstyled:hover {
     width: 100%;
 }
 
-#scroll-down{
+#scroll-down {
     position: absolute;
     bottom: 10px;
     height: 60px;
     width: 100%;
 }
 
-#scroll-down .scroll-down-icon{
+#scroll-down .scroll-down-icon {
     fill: rgba(255, 255, 255, 0.6);
 }
-#scroll-down .scroll-down-text{
-    color: rgba(255, 255, 255, 0.6);
+
+#scroll-down .scroll-down-text {
+    color: rgba(0, 0, 0, 0.6);
     font-family: 'Dancing Script', cursive;
     font-size: 16px;
 }
@@ -497,7 +498,7 @@ a.unstyled:hover {
 
 #activities .section-heading {
     font-family: 'Pacifico', cursive;
-    color: rgba(0, 0, 0, 0.6);
+    color: rgba(255, 255, 255, 0.8);
 }
 
 .activities-container {
@@ -505,14 +506,14 @@ a.unstyled:hover {
 }
 
 .activity .activity-icon {
-    color: rgba(0, 0, 0, 0.6);
+    color: rgba(0, 0, 0, 0.4);
 }
 
 .activity .activity-title {
     margin: 20px 0;
     font-family: "Roboto Slab", sans-serif;
     font-weight: 700;
-    color: rgba(0, 0, 0, 0.6);
+    color: rgba(255, 255, 255, 0.8);
 }
 
 .activity .activity-description {
