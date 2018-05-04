@@ -38,6 +38,11 @@ body {
     height: auto;
 }
 
+.img-icon{
+    width: 30px;
+    height: auto;
+}
+
 .wrapper {
     position: relative;
     width: 100%;
@@ -355,6 +360,22 @@ a.unstyled:hover {
     margin-top: 280px;
     bottom: 0;
     width: 100%;
+}
+
+#scroll-down{
+    position: absolute;
+    bottom: 10px;
+    height: 60px;
+    width: 100%;
+}
+
+#scroll-down .scroll-down-icon{
+    fill: rgba(255, 255, 255, 0.6);
+}
+#scroll-down .scroll-down-text{
+    color: rgba(255, 255, 255, 0.6);
+    font-family: 'Dancing Script', cursive;
+    font-size: 16px;
 }
 
 @media all and (max-width: 767px) {
