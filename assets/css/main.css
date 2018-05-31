@@ -521,7 +521,7 @@ a.unstyled:hover {
 }
 
 .activity .activity-description {
-    color: rgba(0, 0, 0, 0.4);
+    color: rgba(0, 0, 0, 0.7);
     font-size: 22px;
     font-family: 'Dancing Script', cursive;
     padding: 20px 10px;
