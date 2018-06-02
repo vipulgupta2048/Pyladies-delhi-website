@@ -38,6 +38,11 @@ body {
     height: auto;
 }
 
+.logo-lg {
+    width: 190px;
+    height: auto;
+}
+
 .img-icon {
     width: 30px;
     height: auto;
@@ -153,12 +158,11 @@ a.unstyled:hover {
     -webkit-transition: 0.5s all;
     -o-transition: 0.5s all;
     transition: 0.5s all;
-    height: 0px;
     background-color: #e51442;
     padding: 0;
     -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
-    height: 60px;
+    height: 75px;
     -webkit-transform: translateY(-60px);
     -ms-transform: translateY(-60px);
     transform: translateY(-60px);
