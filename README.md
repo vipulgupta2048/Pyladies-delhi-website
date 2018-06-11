@@ -1,6 +1,5 @@
 # PyLadies Delhi Website
-The code and development of the PyLadies Delhi chapter's website is housed here.   
-For more details - [Refer to this paper.](https://paper.dropbox.com/doc/PyLadies-Delhi-WebD-Project-DXVgM6PN6EJYb7dOobb9l?_tk=share_copylink)
+The source code and development of the PyLadies Delhi chapter's website is housed here. Pull request are welcome. 
 
 ## Contributing Guidelines
 1. Add assets such as images and other media in assets folder.
@@ -10,7 +9,7 @@ For more details - [Refer to this paper.](https://paper.dropbox.com/doc/PyLadies
 4. Write your name in Contributors section below when PR is made.
 5. Make sure you update your REMOTE ORIGIN in case you have forked this repo : [Refer](https://help.github.com/articles/syncing-a-fork/)
 6. Once you update the forked repo make sure you rebase the changes and then open the PR. [Refer](http://stackoverflow.com/questions/7244321/how-do-i-update-a-github-forked-repository)
-7. Every PR should only have one logical change and the least number of commits possible (If for some reasons the commits are higher then the creator of the PR would be asked to squash them.) If he/she doesn't comply, then PR is not to be merged.     
+7. Every PR should only have one logical change and the least number of commits possible (If for some reasons the commits are higher then the creator of the PR would be asked to squash them.) If he/she doesn't comply, then PR is not to be merged. 
 [Refer](https://makandracards.com/makandra/527-squash-several-git-commits-into-a-single-commit
 ) in case there are multiple commits.
 
