@@ -521,10 +521,11 @@ a.unstyled:hover {
 }
 
 .activity .activity-description {
-    color: rgba(0, 0, 0, 0.7);
-    font-size: 22px;
-    font-family: 'Dancing Script', cursive;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 20px;
+    font-family: 'Jua', cursive;
     padding: 20px 10px;
+    font-weight: 300;
 }
 
 /** Sponsors Section **/
